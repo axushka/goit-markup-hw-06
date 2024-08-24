@@ -298,18 +298,29 @@
       </section>
 
       <!-- portfolio section  -->
-      <!-- <section class="portfolio">
+      <section class="portfolio">
         <div class="container">
           <h2 class="portfolio-section">Our Portfolio</h2>
           <ul class="portfolio-section-ul">
             <li class="portfolio-item">
               <div class="portfolio-section-img">
-                <img
-                  src="./images/banking.jpg"
-                  alt="banking-app"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source
+                    srcset="./images/banking.jpg 3x"
+                    media="(min-width:1158px)"/>
+                    <source
+                    srcset="./images/bank-second.jpg 2x"
+                    media="(min-width:768px)"/>
+                    <source
+                    srcset="./images/bank-one.jpg 1x"
+                    media="(min-width:320px)"/>
+                    <img
+                    src="./images/banking.jpg"
+                    alt="banking-app"
+                    width="360"
+                    height="300"/>
+                 
+                </picture>
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -425,11 +436,11 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
     </main>
 
     <!-- footer -->
-    <!-- <footer class="footer-section">
+    <footer class="footer-section">
       <div class="container">
         <div class="footer-logo">
           <a href="./index.html" class="logo"
@@ -493,7 +504,7 @@
           </form>
         </div>
       </div>
-    </footer> -->
+    </footer>
     <!-- backdrop-->
     <div class="backdrop is-open">
       <div class="modal">
