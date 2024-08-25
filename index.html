@@ -135,8 +135,24 @@
           <h2 class="our-team">Our Team</h2>
           <ul class="our-team-ul">
             <li class="our-team-foto">
+              <source
+                media="(max-width:767px)"
+                srcset="
+                  ./images/mark-guer-mob-sm.jpg    1x,
+                  ./images/mark-guer-mob-sm@2x.jpg 2x
+                "
+                type="image/jpg"
+              />
+              <source
+                media="(min-width:768px)"
+                srcset="
+                  ./images/mark-guer_md.jpg    1x,
+                  ./images/mark-guer_md@2x.jpg 2x
+                "
+                type="image/jpg"
+              />
               <img
-                src="./images/img-3.jpg"
+                src="./images/mark-guer.jpg"
                 alt="prod-designer"
                 width="264"
                 height="260"
@@ -174,8 +190,16 @@
               </div>
             </li>
             <li class="our-team-foto">
+              <source
+                media="(max-width:767px)"
+                srcset="
+                  ./images/tom-ford-mob_sm.jpg    1x,
+                  ./images/tom-ford-mob_sm@2x.jpg 2x
+                "
+                type="image/jpg"
+              />
               <img
-                src="./images/img-2.jpg"
+                src="./images/tom-ford.jpg"
                 alt="front-dtsigner"
                 width="264"
                 height="260"
@@ -215,7 +239,7 @@
             </li>
             <li class="our-team-foto">
               <img
-                src="./images/img-1.jpg"
+                src="./images/camila-garcia.jpg"
                 alt="marketing"
                 width="264"
                 height="260"
@@ -255,7 +279,7 @@
             </li>
             <li class="our-team-foto">
               <img
-                src="./images/img.jpg"
+                src="./images/daniel-wilson.jpg"
                 alt="ul-designer"
                 width="264"
                 height="260"
@@ -298,7 +322,7 @@
       </section>
 
       <!-- portfolio section  -->
-      <section class="portfolio">
+      <!-- <section class="portfolio">
         <div class="container">
           <h2 class="portfolio-section">Our Portfolio</h2>
           <ul class="portfolio-section-ul">
@@ -307,19 +331,22 @@
                 <picture>
                   <source
                     srcset="./images/banking.jpg 3x"
-                    media="(min-width:1158px)"/>
-                    <source
+                    media="(min-width:1158px)"
+                  />
+                  <source
                     srcset="./images/bank-second.jpg 2x"
-                    media="(min-width:768px)"/>
-                    <source
+                    media="(min-width:768px)"
+                  />
+                  <source
                     srcset="./images/bank-one.jpg 1x"
-                    media="(min-width:320px)"/>
-                    <img
+                    media="(min-width:320px)"
+                  />
+                  <img
                     src="./images/banking.jpg"
                     alt="banking-app"
                     width="360"
-                    height="300"/>
-                 
+                    height="300"
+                  />
                 </picture>
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -436,11 +463,11 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
 
     <!-- footer -->
-    <footer class="footer-section">
+    <!-- <footer class="footer-section">
       <div class="container">
         <div class="footer-logo">
           <a href="./index.html" class="logo"
@@ -504,7 +531,7 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
     <!-- backdrop-->
     <div class="backdrop is-open">
       <div class="modal">
