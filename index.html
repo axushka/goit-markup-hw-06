@@ -26,7 +26,7 @@
   </head>
 
   <body>
-    <!-- <header class="page-header">
+    <header class="page-header">
       <div class="container">
         <nav class="page-header-nav">
           <a href="./index.html" class="logo"
@@ -56,8 +56,75 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="group-btn">
+          <svg class="group-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-group"></use>
+          </svg>
+        </button>
       </div>
-    </header> -->
+      <div class="mobil-menu is-open">
+        <div class="container mobil-menu-conteiner">
+          <button type="button" class="mobil-menu-close">
+            <svg class="modal-menu-icon-close" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
+          </button>
+          <nav class="mobil-menu-nav">
+            <ul class="mobil-menu-list">
+              <li class="mobil-menu-title">
+                <a href="./index.html" class="link">Studio</a>
+              </li>
+              <li>
+                <a href="" class="link">Portfolio</a>
+              </li>
+              <li>
+                <a href="" class="link">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="mobil-menu-adress">
+            <ul class="contact-details-ul">
+            <li>
+              <a href="mailto:info@devstudio.com" class="link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a>
+            </li>
+          </ul></address>
+          <div>
+            <ul class="icons-list">
+              <li class="icons-list-items">
+                <a href="" target="_blank" class="icons-link">
+                  <svg class="team-box-icons" width="16" height="16">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="icons-list-items">
+                <a href="" target="_blank" class="icons-link"
+                  ><svg class="team-box-icons" width="16" height="16">
+                    <use href="./images/icons.svg#icon-twitter"></use></svg
+                ></a>
+              </li>
+              <li class="icons-list-items">
+                <a href="" target="_blank" class="icons-link"
+                  ><svg class="team-box-icons" width="16" height="16">
+                    <use href="./images/icons.svg#icon-facebook"></use></svg
+                ></a>
+              </li>
+              <li class="icons-list-items">
+                <a href="" target="_blank" class="icons-link"
+                  ><svg class="team-box-icons" width="16" height="16">
+                    <use href="./images/icons.svg#icon-linkedin"></use></svg
+                ></a>
+              </li>
+            </ul> 
+          </div>
+        </div>
+      </div>
+    </header>
     <main>
       <!-- hero section -->
       <section class="hero-section">
@@ -523,7 +590,13 @@
                     "
                     media="(min-width:768px)"
                   />
-                  <source srcset="./images/online_sm.jpg 1x, ./images/online_sm@2x.jpg 2x" media="(max-width:767px)" />
+                  <source
+                    srcset="
+                      ./images/online_sm.jpg    1x,
+                      ./images/online_sm@2x.jpg 2x
+                    "
+                    media="(max-width:767px)"
+                  />
                   <img
                     src="./images/courses.jpg"
                     alt="online-courses"
