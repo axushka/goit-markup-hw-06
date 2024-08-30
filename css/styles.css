@@ -76,8 +76,9 @@ ol {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  text-align: center;
   font-family: "Raleway", sans-serif;
-  padding: 16px 0;
+  padding: 17px 0;
   display: block; }
 
 .logo-second {
@@ -89,6 +90,7 @@ ol {
   text-transform: uppercase;
   color: #2e2f42;
 }
+.mob-logo { margin: 0; padding: 17px 0;}
 .group-btn {
   padding: 0;
   border: none;
@@ -378,13 +380,6 @@ img {
   display: flex;
   flex-direction: column;
   gap: 72px;
-}
-
-.logo {
-  padding: 0;
-  display: block;
-  margin-bottom: 16px;
-  text-align: center;
 }
 
 .footer-section {
@@ -829,7 +824,8 @@ img {
 .mobil-menu-nav .mobil-menu-title .mobil-link {
     color: #404bbf;
 }
-.mobile-contact-details-ul {
+.mobil-menu-adress { font-style: normal;}
+ .mobile-contact-details-ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -992,9 +988,7 @@ img {
   .footer-input {
     width: 264px;
   }
-  .footer-btn-send {
-    /* margin-left: 24px; */
-  }
+  
   .footer-send-btn {
     margin-top: auto;
   }
@@ -1102,7 +1096,5 @@ img {
   .footer-form {
     flex-direction: row;
   }
-  .footer-btn-send {
-    /* margin-left: 24px; */
-  }
+ 
 }
